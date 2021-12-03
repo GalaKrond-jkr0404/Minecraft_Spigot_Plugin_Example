@@ -66,7 +66,8 @@ public class TutorialEvents implements Listener {
             if (event.getItem() != null){
                 if (event.getItem().getItemMeta().equals(ItemManager.wand.getItemMeta())){
                     Player player = event.getPlayer();
-                    Location location = player.getLocation().subtract(0, 4, 0); // 그냥 player.location 에 뒀다가는 조금이라도 바닥을 바라보면 위더 해골이 바로 밑에서 폭발함.
+                    Location location = player.getLocation();
+                    location.setY(location.getY() + 4); // 그냥 player.location 에 뒀다가는 조금이라도 바닥을 바라보면 위더 해골이 바로 밑에서 폭발함.
                     player.getWorld().spawnEntity(location, EntityType.WITHER_SKULL); // 위더 해골 투사체는 별다른 설정 없이도 자동으로 앞으로 나가기 때문에, 그냥 소환하기에는 좋은 편임.
                     player.sendMessage("§1See The Power of Plugins! ");
                 }
