@@ -1,0 +1,29 @@
+name: Tutorial
+version: 1.0
+author: GalaKrond
+main: com.galakrond.tutorial.Tutorial
+api-version: 1.17
+commands:
+  heal:
+    description: Heals player to Max Health
+    usage: "/<command>"
+    aliases: healme
+
+  feed:
+    description: Just Eat All.
+    usage: "/<command>"
+    aliases: hungry
+
+  golemdrop:
+    description: Drops Golem with TNT on air.
+    usage: "/<command>"
+
+
+  farmtime:
+    description: Spawn a specfied farm animal
+    usage: "/<command>"
+
+
+  givewand:
+    description: Give Player to magical Testing Wand.
+    usage: "/<command>"

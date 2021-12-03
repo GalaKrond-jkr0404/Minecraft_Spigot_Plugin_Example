@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Tutorial:jar">
+    <output-path>$PROJECT_DIR$/..</output-path>
+    <root id="archive" name="Tutorial.jar">
+      <element id="module-output" name="Tutorial" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../Dependencies/spigot-api-1.17.1.jar" path-in-jar="/" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/com/galakrond/tutorial/plugin/plugin.yml" />
+    </root>
+  </artifact>
+</component>
