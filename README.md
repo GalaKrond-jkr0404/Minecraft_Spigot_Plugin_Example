@@ -8,3 +8,5 @@ Most of code is in his video, but the other is made by me,
 
 see Korean comments in my codes if you interested :)
 
+And also, all codes are in master.
+
